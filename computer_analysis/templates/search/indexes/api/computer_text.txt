@@ -1,0 +1,3 @@
+{{ object.title }}
+{{ object.computer_id }}
+{{ object.brand }}

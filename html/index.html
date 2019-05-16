@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<header>
+  <h1 class="text-center text-success">京东笔记本商品分析</h1>
+  <div id="search" class="col-md-8 col-md-offset-2">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="请输入关键字">
+        <span class="input-group-btn">
+          <button class="btn btn-group text-success" onclick="search(1)">搜索</button>
+        </span>
+      </div>
+  </div>
+  <div id="goods_list">
+    <div class="col-md-7 col-md-offset-3">
+      <div style="display: table-cell;vertical-align: middle;text-align: center;">
+        <a id="huawei" class='active' href="javascript:loadlist('huawei')">华为</a>
+        <a id="Lenovo" href="javascript:loadlist('Lenovo')">联想</a>
+        <a id="ThinkPad" href="javascript:loadlist('ThinkPad')">ThinkPad</a>
+        <a id="apple" href="javascript:loadlist('apple')">Apple</a>
+        <a id="DELL" href="javascript:loadlist('DELL')">戴尔</a>
+        <a id="samsung" href="javascript:loadlist('samsung')">三星</a>
+        <a id="ASUS" href="javascript:loadlist('ASUS')">华硕</a>
+        <a id="HP" href="javascript:loadlist('HP')">惠普</a>
+        <a id="acer" href="javascript:loadlist('acer')">宏碁</a>
+        <a id="xiaomi" href="javascript:loadlist('xiaomi')">小米</a>
+        <a id="Microsoft" href="javascript:loadlist('Microsoft')">微软</a>
+        <a id="Alienware" href="javascript:loadlist('Alienware')">外星人</a>
+        <a id="MECHREVO" href="javascript:loadlist('MECHREVO')">机械革命</a>
+        <a id="HASEE" href="javascript:loadlist('HASEE')">神舟</a>
+        <a id="MSI" href="javascript:loadlist('MSI')">微星</a>
+        <a id="Razer" href="javascript:loadlist('Razer')">雷蛇</a>
+        <a id="dere" href="javascript:loadlist('dere')">戴睿</a>
+        <a id="Haier" href="javascript:loadlist('Haier')">海尔</a>
+      </div>
+    </div>
+</header>
+<main class="col-md-12 col-md-offset-0">
+
+</main>
+<footer class="col-md-6 col-md-offset-3">
+  <nav></nav>
+</footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

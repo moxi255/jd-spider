@@ -1,0 +1,225 @@
+
+#goods {
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+.self-dl{
+	display: flex;
+	margin-top: 37%;
+	font-size: 20px
+}
+
+.self-dl > dd{
+	color: red;
+}
+#wordcloud{
+    margin-top: 5%;
+	text-align: center;
+}
+.svg{
+    margin-top: 5%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#param{
+    margin-top: 5%;
+    /*background-color: beige;*/
+}
+
+.Ptable {
+    margin: 10px
+}
+
+.Ptable-item {
+	padding-top: 0px;
+    padding: 12px;
+    line-height: 220%;
+    color: #999;
+    font-size: 12px;
+}
+
+.Ptable-item:after {
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both
+}
+
+.Ptable-item h3 {
+	align: center;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top: 0px;
+    width: 150px;
+    text-align: center
+}
+
+.Ptable-item dl {
+    margin-left: 110px;
+	margin-bottom:0px;
+}
+
+.Ptable-item dt {
+    width: 370px;
+    float: left;
+    text-align: right;
+    padding-right: 5px
+}
+
+.Ptable-item dd {
+    margin-left: 210px
+}
+
+.Ptable-item .Ptable-tips {
+    position: relative;
+    float: left;
+    width: auto;
+    margin-left: 0
+}
+
+.Ptable-item .Ptable-tips:hover {
+    z-index: 2
+}
+
+.Ptable-item .Ptable-sprite-question {
+    display: inline-block;
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+}
+
+.Ptable-tips .tips {
+    display: none;
+    position: absolute;
+    left: -10px;
+    top: 27px;
+    width: 300px
+}
+
+.Ptable-tips:hover .tips {
+    display: block
+}
+
+.Ptable-tips .content {
+    padding: 8px 10px;
+    background: #fff;
+    border: 1px solid #cecbce;
+    box-shadow: 0 0 2px 2px #eee
+}
+
+.Ptable-tips p {
+    font-family: "microsoft yahei";
+    color: #999;
+    line-height: 160%;
+    text-align: left
+}
+
+.Ptable-tips .Ptable-sprite-arrow {
+    position: absolute;
+    overflow: hidden;
+    left: 15px;
+    top: -5px;
+    width: 11px;
+    height: 6px;
+}
+
+
+
+.Ptable td,.Ptable th {
+    font-size: 12px
+}
+
+.Ptable th {
+    background: #EEF7FE;
+    text-align: right;
+    padding: 5px
+}
+
+.Ptable td {
+    padding: 2px 5px;
+    background: #fff
+}
+
+.Ptable th.tdTitle {
+    text-align: center
+}
+
+.Ptable .tdTitle {
+    text-align: right;
+    width: 500px;
+    background: #F5FAFE
+}
+.Ptable tr {
+	text-align: center
+}
+
+
+.Ptable-tips {
+    display: inline-block;
+    position: relative;
+    *display: inline;
+    *zoom:1}
+
+.Ptable-tips:hover {
+    z-index: 2
+}
+
+.Ptable-sprite-question {
+    display: inline-block;
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+}
+
+.Ptable-tips .tips {
+    display: none;
+    position: absolute;
+    left: -10px;
+    top: 27px;
+    width: 215px
+}
+
+.Ptable-tips:hover .tips {
+    display: block
+}
+
+.Ptable-tips .content {
+    padding: 8px 10px;
+    background: #fff;
+    border: 1px solid #cecbce;
+    box-shadow: 0 0 2px 2px #eee
+}
+
+.Ptable-tips p {
+    font-family: "microsoft yahei";
+    color: #999;
+    line-height: 160%;
+    text-align: left
+}
+
+.Ptable-tips .Ptable-sprite-arrow {
+    position: absolute;
+    overflow: hidden;
+    left: 15px;
+    top: -5px;
+    width: 11px;
+    height: 6px;
+}
+
+
+
